@@ -42,6 +42,12 @@ if ( y1 === 8 || y2 === 8 || y1 + y2 === 8 || y2 - y1 === 8){ console.log ( "ver
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+let totalShoppingCart = 65
+let shippingCost = 10
+let amountTopay = totalShoppingCart
+if ( totalShoppingCart < 50) { amountTopay += shippingCost}
+console.log (" Totale da pagare:", amountTopay)
+
 
 /* ESERCIZIO 6
   Stai lavorando su un sito di e-commerce. Oggi è il Black Friday e viene applicato il 20% su ogni prodotto.
