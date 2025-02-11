@@ -3,9 +3,10 @@
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-let number = 2
-let number1 = 4
-if ( number1 > number) {console.log (number1)}
+let x = 4
+let y = 7
+if (x > y) {
+console.log (" il numero più grande è", x) } else if (x < y) { ("il numero più grande è", y) } else { console.log (" i numeri sono uguali")}
  
 
 /* ESERCIZIO 2
@@ -13,18 +14,26 @@ if ( number1 > number) {console.log (number1)}
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+let x1 = 7 
+if (x1 !== 5){ console.log ( "not equal")}
+
 
 /* ESERCIZIO 3
   Scrivi un algoritmo che mostri "divisibile per 5" in console se un numero fornito è perfettamente divisibile per 5 (suggerimento: usa l'operatore modulo)
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+let x2 = 15
+if (x2 % 5 === 0 ) { console.log ( "divisibile per 5")}
 
 /* ESERCIZIO 4
   Scrivi un algoritmo per verificare che, dati due numeri interi, il valore di uno di essi sia 8 oppure se la loro addizione/sottrazione sia uguale a 8.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+let y1 = 10 
+let y2 = 2
+if ( y1 === 8 || y2 === 8 || y1 + y2 === 8 || y2 - y1 === 8){ console.log ( "verificato")}
 
 /* ESERCIZIO 5
   Stai lavorando su un sito di e-commerce. Stai salvando il saldo totale del carrello dell'utente in una variabile "totalShoppingCart".
